@@ -1,0 +1,9 @@
+img{
+    width: 45px;
+}
+.navbar{
+    background-color: #2F3BA1;
+}
+li{
+    cursor: pointer;
+}

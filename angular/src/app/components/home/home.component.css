@@ -1,0 +1,54 @@
+header{
+    background-color: #7884CD;
+    min-height: 400px;
+}
+h1{
+    color: white;
+    position: absolute;
+    margin-top: 85px;
+    font-size: 60px;
+}
+#subtitle{
+    color: white;
+    position: absolute;
+    margin-top: 217px;
+    font-size: 26px;
+}
+
+.more{
+    color: rgb(46, 143, 253);
+    cursor: pointer;
+}
+.first-row-right-item{
+    text-align: center;
+    font-weight: bolder;
+}
+.first-row-right-item-desc{
+    font-weight: bold;
+}
+.first-row-right-item-title{
+    font-weight: bolder;
+}
+.second-row-left-item{
+    margin: 32px 0px;
+    text-align: center;
+}
+.menu{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.menu-wrap{
+    background-color: #7884CD;
+}
+#menu-title{
+    text-align: center;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 47px;
+}
+.body-promotion
+
+{
+    margin-top: 20px;
+}

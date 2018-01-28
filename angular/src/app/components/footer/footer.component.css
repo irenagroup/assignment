@@ -1,0 +1,48 @@
+.container  {
+}
+.footer
+{
+    min-height: 200px;
+
+}
+.footer ul{
+    list-style-type: none;
+
+}
+.footer .greyRow
+{
+    background-color: #AFAFAF;
+    margin: 0px;
+
+}
+.footer .title
+{
+    font-size:16px;
+    font-weight: bold;
+
+}
+.menuLinksCol, .address
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.social{
+    margin-top: 20px;
+
+}
+.more{
+    color: rgb(46, 143, 253);
+    cursor: pointer;
+}
+.address{
+    font-size: 13px;
+}
+.fa{
+    font-size: 40px;
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

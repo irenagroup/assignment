@@ -1,0 +1,62 @@
+<header >
+  <div class="container" >
+  <h1>Ristorante Il Fornello</h1>
+
+  <p id="subtitle">Simple, Fresh ingredients, prepared and cooked with love and passion become truly great dishes, from wood-oven baked Neapolitan
+    style pizzas to pastas, entrees!</p>
+  </div>
+</header>
+<div class="container body-promotion">
+  <div class="row">
+    <div class="col-md-9">
+      <h3>Fichipizza</h3>
+      <p>A unique combination of Mediteranian and Italian pizza, topped with Mascarphone, proscuitto, figs, grando panado, honey
+        and arugula.</p>
+      <p class="more">More</p>
+    </div>
+    <div class="col-md-3 first-row-right-item">
+      <h3>Our Unique Culinary Creations</h3>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-3 second-row-left-item align-items-center">
+      <h3>This Month's Promotions</h3>
+    </div>
+    <div class="col-md-9">
+      <h3>Weekend Grand Buffet</h3>
+      <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees
+        and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person.</p>
+      <p class="more">More</p>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-9">
+      <h3>Tommy McHugh</h3>
+      <h4>Executive Chef</h4>
+      <p>Award winning three-star Michelin chef with wide Internation experience having worked closely with whos-who in th culinary
+        world, he specializes in creating mouthwatering Mediterranean-Italian experiences.</p>
+      <p class="more">More</p>
+    </div>
+    <div class="col-md-3 first-row-right-item">
+      <h3>Meet our Culinary Specialists</h3>
+    </div>
+  </div>
+  <hr>
+  <div class="menu-wrap">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 id="menu-title">Menu</h2>
+      </div>
+    </div>
+    <div class="row menu" *ngFor="let menuItem of menu">
+      <div class="col-md-6">
+        {{menuItem.name}}
+      </div>
+      <div class="col-md-6">
+        ${{menuItem.price}}
+      </div>
+    </div>
+  </div>
+</div>

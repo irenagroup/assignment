@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" routerLink = "/home">
+    <img src="/assets/logo.jpg" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" routerLinkActive = "active">
+          <a class="nav-link" routerLink = "/home"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive = "active" routerLink = "/about"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown">Menu</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown">
+            <a class="dropdown-item" routerLink = "">Action</a>
+            <a class="dropdown-item" routerLink = "">Another action</a>
+            <a class="dropdown-item" routerLink = "">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive = "active" routerLink = "/contact">Contact</a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
