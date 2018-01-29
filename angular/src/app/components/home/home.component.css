@@ -2,19 +2,17 @@ header{
     background-color: #7884CD;
     min-height: 400px;
 }
+
 h1{
     color: white;
-    position: absolute;
-    margin-top: 85px;
+    padding-top: 85px;
     font-size: 60px;
 }
 #subtitle{
     color: white;
-    position: absolute;
-    margin-top: 217px;
+    margin-top: 17px;
     font-size: 26px;
 }
-
 .more{
     color: rgb(46, 143, 253);
     cursor: pointer;
